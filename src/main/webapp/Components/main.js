@@ -79,10 +79,10 @@ $(document).on("click", ".btnUpdate", function(event)
 	$("#hidItemIDSave").val($(this).closest("tr").find('#hidItemIDUpdate').val());
 	 $("#hidItemIDSave").val($(this).data("noticeid"));
 	 //$("#noticeId").val($(this).closest("tr").find('td:eq(0)').text());
-	 $("#phone").val($(this).closest("tr").find('td:eq(1)').text());
-	 $("#address").val($(this).closest("tr").find('td:eq(2)').text());
-	 $("#note").val($(this).closest("tr").find('td:eq(3)').text());
-	 $("#zipcode").val($(this).closest("tr").find('td:eq(4)').text());
+	 $("#phone").val($(this).closest("tr").find('td:eq(0)').text());
+	 $("#address").val($(this).closest("tr").find('td:eq(1)').text());
+	 $("#note").val($(this).closest("tr").find('td:eq(2)').text());
+	 $("#zipcode").val($(this).closest("tr").find('td:eq(3)').text());
 });
 
 $(document).on("click", ".btnRemove", function(event)
